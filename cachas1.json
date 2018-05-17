@@ -1,0 +1,41 @@
+    {
+        schema: {
+          hospital: {
+            type: 'string',
+            title: 'Id Centro de Salud:',
+            required: true
+          },
+          paciente: { 
+            type: 'number',
+            title: 'ID Paciente'
+          },
+
+          hce: {
+            type: 'number',
+            title: 'Fecha:'
+          },
+
+          otro2: {
+            type: 'number',
+            title: 'otro222'
+          },
+
+          otro4: {
+            type: 'number',
+            title: 'otro333'
+          },
+
+ choice: {
+          type: 'string',
+          title: 'Title',
+          'enum': [
+            'add-to-desktop.png',
+            'address-book-new-2.png',
+            'application-exit-4.png',
+            'appointment-new-3.png',
+            'archive-insert-2.png'
+          ],
+          'default': 'application-exit-4.png'
+      }
+        }
+      }
