@@ -1,0 +1,64 @@
+Tiempo,Proveedor,Cliente Id,Cliente Rol,Sector,Concepto,Resultado Cuanti,Resultado Cualit
+20180501,CM - Hospital,99-00001,Paciente,Salud,Consulta - Urgencia,Alergia ,50
+20180502,CM - Hospital,99-00002,Paciente,Salud,Consulta - Urgencia,Inlamación,10
+20180503,CM - Hospital,99-00003,Paciente,Salud,Consulta - Urgencia,Vómito,20
+20180504,CM - Hospital,99-00004,Paciente,Salud,Consulta - Urgencia,Nauseas,23
+20180505,CM - Hospital,99-00005,Paciente,Salud,Consulta - Urgencia,Quemadura,42
+20180506,CM - Hospital,99-00006,Paciente,Salud,Consulta - Urgencia,Alergia ,"28,1"
+20180507,CM - Hospital,99-00007,Paciente,Salud,Consulta - Urgencia,Inlamación,"27,8"
+20180508,CM - Hospital,99-00008,Paciente,Salud,Consulta - Urgencia,Vómito,"27,5"
+20180509,CM - Hospital,99-00009,Paciente,Salud,Consulta - Urgencia,Nauseas,"27,2"
+20180510,CM - Hospital,99-00010,Paciente,Salud,Conslta - Molestia,Quemadura,"26,9"
+20180511,CM - Hospital,99-00011,Paciente,Salud,Receta,Alergia ,"26,6"
+20180512,CM - Hospital,99-00012,Paciente,Salud,Tratamiento,Inlamación,"26,3"
+20180513,CM - Hospital,99-00013,Paciente,Salud,Receta,Vómito,26
+20180514,CM - Hospital,99-00014,Paciente,Salud,Tratamiento,Nauseas,"25,7"
+20180515,CM - Hospital,99-00015,Paciente,Salud,Receta,Quemadura,"25,4"
+20180516,CM - Hospital,99-00016,Paciente,Salud,Tratamiento,Alergia ,"25,1"
+20180517,CM - Hospital,99-00001,Paciente,Salud,Receta,Inlamación,"24,8"
+20180518,CM - Hospital,99-00002,Paciente,Salud,Tratamiento,Vómito,"24,5"
+20180519,CM - Hospital,99-00003,Paciente,Salud,Receta,Nauseas,"24,2"
+20180520,CM - Hospital,99-00004,Paciente,Salud,Tratamiento,Quemadura,"23,9"
+20180521,CM - Hospital,99-00005,Paciente,Salud,Receta,Alergia ,"23,6"
+20180522,CM - Hospital,99-00006,Paciente,Salud,Tratamiento,Inlamación,"23,3"
+20180523,CM - Hospital,99-00007,Paciente,Salud,Receta,Vómito,23
+20180524,CM - Hospital,99-00008,Paciente,Salud,Tratamiento,Nauseas,"22,7"
+20180525,CM - Hospital,99-00009,Paciente,Salud,Receta,Quemadura,"22,4"
+20180526,CM - Hospital,99-00010,Paciente,Salud,Tratamiento,Alergia ,"22,1"
+20180527,CM - Hospital,99-00011,Paciente,Salud,Receta,Inlamación,"21,8"
+20180528,CM - Hospital,99-00012,Paciente,Salud,Tratamiento,Vómito,"21,5"
+20180529,CM - Hospital,99-00013,Paciente,Salud,Receta,Nauseas,"21,2"
+20180530,CM - Hospital,99-00014,Paciente,Salud,Tratamiento,Quemadura,"20,9"
+20180531,CM - Hospital,99-00015,Paciente,Salud,Receta,Vómito,"20,6"
+20180532,CM - Hospital,99-00016,Paciente,Salud,Tratamiento,Vómito,"20,3"
+20180533,CM - Hospital,99-00001,Supervisor,Salud,Decalración Jurada - Resol. 2018/1,Dengue Positivo,100
+20180534,CM - Hospital,99-00002,Supervisor,Salud,Decalración Jurada - Resol. 2018/2,Dengue Positivo,100
+20180535,CM - Hospital,99-00003,Supervisor,Salud,Decalración Jurada - Resol. 2018/3,Dengue Positivo,100
+20180536,CM - Hospital,99-00004,Supervisor,Salud,Decalración Jurada - Resol. 2018/4,Dengue Positivo,100
+20180537,CM - Hospital,99-00005,Supervisor,Salud,Decalración Jurada - Resol. 2018/5,Dengue Negativo,0
+20180538,CM - Hospital,99-00006,Supervisor,Salud,Decalración Jurada - Resol. 2018/6,Dengue Negativo,0
+20180539,CM - Hospital,99-00007,Supervisor,Salud,Decalración Jurada - Resol. 2018/7,Dengue Negativo,0
+20180540,CM - Hospital,99-00008,Supervisor,Salud,Decalración Jurada - Resol. 2018/8,Dengue Negativo,0
+20180541,CM - Hospital,99-00009,Supervisor,Salud,Decalración Jurada - Resol. 2018/9,Anibióticos,"17,6"
+20180542,CM - Hospital,99-00010,Supervisor,Salud,Decalración Jurada - Resol. 2018/10,Antiflamatorio,"17,3"
+20180543,CM - Hospital,99-00011,Supervisor,Salud,Decalración Jurada - Resol. 2018/11,Diurético,17
+20180544,CM - Hospital,99-00012,Supervisor,Salud,Decalración Jurada - Resol. 2018/12,Analgécicos,"16,7"
+20180545,CM - Hospital,99-00013,Supervisor,Salud,Decalración Jurada - Resol. 2018/13,Dengue Positivo,"16,4"
+20180546,CM - Hospital,99-00014,Supervisor,Salud,Decalración Jurada - Resol. 2018/14,Dengue Positivo,"16,1"
+20180547,CM - Hospital,99-00015,Supervisor,Salud,Decalración Jurada - Resol. 2018/15,Dengue Positivo,"15,8"
+20180548,CM - Hospital,99-00016,Supervisor,Salud,Decalración Jurada - Resol. 2018/16,Dengue Positivo,"15,5"
+20180549,CM - Hospital,99-00001,Supervisor,Salud,Decalración Jurada - Resol. 2018/17,Dengue Negativo,"15,2"
+20180550,CM - Hospital,99-00002,Supervisor,Salud,Decalración Jurada - Resol. 2018/18,Dengue Negativo,"14,9"
+20180551,CM - Hospital,99-00003,Estado,Salud,Decalración Jurada - Resol. 2018/1,Dengue Negativo,"14,6"
+20180552,CM - Hospital,99-00004,Estado,Salud,Decalración Jurada - Resol. 2018/2,Dengue Negativo,"14,3"
+20180553,CM - Hospital,99-00005,Estado,Salud,Decalración Jurada - Resol. 2018/3,Anibióticos,14
+20180554,CM - Hospital,99-00006,Estado,Salud,Decalración Jurada - Resol. 2018/4,Antiflamatorio,"13,7"
+20180555,CM - Hospital,99-00007,Estado,Salud,Decalración Jurada - Resol. 2018/5,Diurético,"13,4"
+20180556,CM - Hospital,99-00008,Estado,Salud,Decalración Jurada - Resol. 2018/6,Analgécicos,"13,1"
+20180557,CM - Hospital,99-00009,Estado,Salud,Decalración Jurada - Resol. 2018/7,Dengue Positivo,"12,8"
+20180558,CM - Hospital,99-00010,Estado,Salud,Decalración Jurada - Resol. 2018/8,Dengue Positivo,"12,5"
+20180559,CM - Hospital,99-00011,Estado,Salud,Decalración Jurada - Resol. 2018/9,Dengue Positivo,"12,2"
+20180560,CM - Hospital,99-00012,Estado,Salud,Decalración Jurada - Resol. 2018/10,Dengue Positivo,"11,9"
+20180561,CM - Hospital,99-00013,Estado,Salud,Decalración Jurada - Resol. 2018/11,Dengue Negativo,"11,6"
+20180562,CM - Hospital,99-00014,Estado,Salud,Decalración Jurada - Resol. 2018/12,Dengue Negativo,"11,3"
+20180563,CM - Hospital,99-00015,Estado,Salud,Decalración Jurada - Resol. 2018/13,Dengue Negativo,11
