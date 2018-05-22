@@ -1,0 +1,388 @@
+[ {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enf1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "B56"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Gripe"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#seTrataCon" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Trat1"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#tieneSintoma" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint1"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint2"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enf2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "B45"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Alzheimer"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#seTrataCon" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Trat2"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#tieneSintoma" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint3"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Hospital1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Hospital" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#servicioTieneRegulacion" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#RegulacionEstado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Medico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ObraSocial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Pac1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "35"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#estaDiagnosticadoDe" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enf1"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Alvaro"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#numero_ss" : [ {
+    "@value" : "AR123456"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#peso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "80.0"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#utilizaServicio" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Hospital1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Pac2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "27"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#estaDiagnosticadoDe" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enf2"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Mario"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#numero_ss" : [ {
+    "@value" : "AR223456"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#peso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "52.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Participante"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Participante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Participante"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Protocolo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Protocolo1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Protocolo" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#protocoloTieneRegulacion" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#RegulacionEstado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Regulacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#RegulacionEstado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Regulacion" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Requiere" : [ {
+    "@value" : "{\n        schema: {\n          hospital: {\n            type: 'string',\n            title: 'Id Centro de Salud:',\n            required: true\n          },\n          paciente: { \n            type: 'number',\n            title: 'ID Paciente'\n          },\n          hce: {\n            type: 'number',\n            title: 'Fecha:'\n          },\n          otro2: {\n            type: 'number',\n            title: 'otro222'\n          },\n          otro4: {\n            type: 'number',\n            title: 'otro333'\n          }\n        }\n      }"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Requiere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Regulacion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "S1"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Fiebre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "S2"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Cefalea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Perdida de memoria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sint4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "S4"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Dolor muscular"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Trat1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "TR5231"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Ibuprofeno"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Trat2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento" ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo" : [ {
+    "@value" : "TR1098"
+  } ],
+  "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre" : [ {
+    "@value" : "Razadyne"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#avatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Participante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#codigo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#contieneProfesional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#edad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#esSintomaDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#tieneSintoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#esTratamientoDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#estaDiagnosticadoDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#nombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Profesional"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma"
+  }, {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#numero_ss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#pagaServicio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ObraSocial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#peso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#protocoloTieneRegulacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Protocolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Regulacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#seTrataCon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Tratamiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#servicioTieneRegulacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Regulacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#tieneSintoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Sintoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#utilizaServicio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/andres/ontologies/2018/4/untitled-ontology-21#ServicioMedico"
+  } ]
+} ]
